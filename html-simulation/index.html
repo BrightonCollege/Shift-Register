@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shift Register Simulation</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="shiftregister.js"></script>
+</head>
+<body>
+	<h1>Shift Register Simulation</h1>
+	<p>
+		<b>Instructions:</b> Control the simulation with the Data, Clock and Latch buttons.
+	</p>
+	<p>
+		<div class="square" onclick="data_clicked()" class="btn" id="data">Data</div>
+		<div class="square" onclick="clock_clicked()" class="btn" id="clock">Clock</div>
+		<div class="square" onclick="latch_clicked()" class="btn" id="latch">Latch</div>
+		<br />
+		<div class="square" id="bit0_s">0</div>
+		<div class="square" id="bit1_s">0</div>
+		<div class="square" id="bit2_s">0</div>
+		<div class="square" id="bit3_s">0</div>
+		<div class="square" id="bit4_s">0</div>
+		<div class="square" id="bit5_s">0</div>
+		<div class="square" id="bit6_s">0</div>
+		<div class="square" id="bit7_s">0</div>
+		<div class="sum" id="s_sum"></div>
+		<br />
+		<div class="square" id="bit0_p">0</div>
+		<div class="square" id="bit1_p">0</div>
+		<div class="square" id="bit2_p">0</div>
+		<div class="square" id="bit3_p">0</div>
+		<div class="square" id="bit4_p">0</div>
+		<div class="square" id="bit5_p">0</div>
+		<div class="square" id="bit6_p">0</div>
+		<div class="square" id="bit7_p">0</div>
+		<div class="sum "id="p_sum"></div>
+	</p>
+	<br />
+	<p>
+		Authors: <a href="http://www.harrybeadle.co.uk">Harry Beadle</a>, <a href="http://adrianiainlam.github.io">Adrian Lam</a>
+	</p>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Ubuntu;
+}
+
+div {
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+div.square {
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Ubuntu Mono;
+}
+
+button.square {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+br {
+    line-height: 75px;
+}
+
+#data, #clock, #latch {
+    cursor: pointer;
+}
+
+#clock, #latch {
+    background-color: red;
+}
+
+.btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn:hover {
+    border: 1px solid black;
+}
