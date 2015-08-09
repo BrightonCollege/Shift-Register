@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shift Register Simulation</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="shiftregister.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<hr />
+	<h1 class="padded">Shift Register Simulation</h1>
+	<p class="padded">
+		<b>Instructions:</b> Control the simulation with the Data, Clock and Latch buttons.
+		For more information on how a shift register works, see this wikipedia article.
+	</p>
+	<hr />
+	<p class="padded">
+		<div class="desc">Inputs:</div>
+		<div class="square input btn" onclick="data_clicked()" id="data">Data</div>
+		<div class="square input btn" onclick="clock_clicked()" id="clock">Clock</div>
+		<div class="square input btn latch" onclick="latch_clicked()" id="latch">Latch</div>
+		<br />
+		<div class="desc">Internal Memory:</div>
+		<div class="square" id="bit0_s">0</div>
+		<div class="square" id="bit1_s">0</div>
+		<div class="square" id="bit2_s">0</div>
+		<div class="square" id="bit3_s">0</div>
+		<div class="square" id="bit4_s">0</div>
+		<div class="square" id="bit5_s">0</div>
+		<div class="square" id="bit6_s">0</div>
+		<div class="square" id="bit7_s">0</div>
+		<div class="sum" id="s_sum">Value: 0</div>
+		<br />
+		<div class="desc">Outputs:</div>
+		<div class="square latch" id="bit0_p">0</div>
+		<div class="square latch" id="bit1_p">0</div>
+		<div class="square latch" id="bit2_p">0</div>
+		<div class="square latch" id="bit3_p">0</div>
+		<div class="square latch" id="bit4_p">0</div>
+		<div class="square latch" id="bit5_p">0</div>
+		<div class="square latch" id="bit6_p">0</div>
+		<div class="square latch" id="bit7_p">0</div>
+		<div class="sum "id="p_sum">Value: 0</div>
+	</p>
+	<br />
+	<hr />
+	<p class="padded">
+		Authors: <a href="http://www.harrybeadle.co.uk">Harry Beadle</a>, <a href="http://adrianiainlam.github.io">Adrian Lam</a>
+	</p>
+	<hr />
+</body>
+</html>

@@ -1,5 +1,10 @@
 body {
     font-family: Ubuntu;
+    font-weight: lighter;
+    background-color: #35404D;
+    color: white;
+    margin-left: 100px;
+    border-left: 2px solid white;
 }
 
 div {
@@ -13,23 +18,40 @@ div {
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
+    color: black;
+}
+
+.padded {
+    padding-left: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    border: 1px solid white;
 }
 
 div.square {
     width: 50px;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     font-family: Ubuntu Mono;
 }
 
-button.square {
-    height: 50px;
-    width: 60px;
-    margin: 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    background-color: white;
-    text-align: center;
+div.sum, div.desc {
+    background-color: #35404D;
+    color: white;
+}
+
+div.desc {
+    width: 125px;
+    text-align: right;
+}
+
+a {
+    color: white;
 }
 
 br {
@@ -42,6 +64,10 @@ br {
 
 #clock, #latch {
     background-color: red;
+}
+
+.input:hover {
+    border-color: gray;
 }
 
 .btn {
